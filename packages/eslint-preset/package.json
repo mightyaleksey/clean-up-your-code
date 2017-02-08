@@ -4,7 +4,7 @@
   "description": "the eslint preset of mine",
   "main": ".eslintrc.json",
   "scripts": {
-    "test": "cp test/source.js test/current.js; eslint --fix test/current.js"
+    "test": "sh test/test.sh"
   },
   "keywords": [
     "eslint"
