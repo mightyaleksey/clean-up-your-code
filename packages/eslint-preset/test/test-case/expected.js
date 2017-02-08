@@ -1,5 +1,8 @@
 'use strict';
 
-const {curry} = require('lodash/fp');
+const {curry, compose} = require('lodash/fp');
+const {assign} = require('lodash/fp');
 
-module.exports = curry((a , b) => a + b);
+const foo = {a: 5, b: 4};
+
+module.exports = curry((a , b) => compose(a, b , assign)(foo));
