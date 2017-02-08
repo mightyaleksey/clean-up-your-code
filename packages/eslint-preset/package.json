@@ -10,6 +10,11 @@
     "eslint"
   ],
   "author": "Alexey Litvinov",
+  "homepage": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-preset#readme",
+  "repository": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-preset",
+  "bugs": {
+    "url": "https://github.com/sullenor/clean-up-your-code/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.15.0"

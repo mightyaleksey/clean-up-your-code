@@ -28,6 +28,7 @@
     "key-spacing": [2, {"beforeColon": false, "afterColon": true, "mode": "minimum", "align": "value"}],
     "keyword-spacing": [2, {"before": true, "after": true}],
     "linebreak-style": [2, "unix"],
+    "no-trailing-spaces": 2,
     "no-var": 2,
     "object-curly-newline": [2, {"minProperties": 2, "multiline": true}],
     "object-curly-spacing": [2, "never"],
