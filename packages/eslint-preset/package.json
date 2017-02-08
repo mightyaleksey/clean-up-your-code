@@ -1,0 +1,17 @@
+{
+  "name": "@sullenor/eslint-preset",
+  "version": "1.0.0",
+  "description": "the eslint preset of mine",
+  "main": ".eslintrc.json",
+  "scripts": {
+    "test": "cp test/source.js test/current.js; eslint --fix test/current.js"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Alexey Litvinov",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.15.0"
+  }
+}
