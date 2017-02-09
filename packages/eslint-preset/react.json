@@ -1,0 +1,15 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "./.eslintrc.json",
+  "globals": {
+    "process": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  }
+}
