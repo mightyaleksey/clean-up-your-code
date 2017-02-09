@@ -1,5 +1,5 @@
 {
-  "name": "@sullenor/eslint-preset",
+  "name": "@sullenor/eslint-config",
   "version": "1.0.0",
   "description": "the eslint preset of mine",
   "main": ".eslintrc.json",
@@ -10,8 +10,8 @@
     "eslint"
   ],
   "author": "Alexey Litvinov",
-  "homepage": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-preset#readme",
-  "repository": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-preset",
+  "homepage": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-config#readme",
+  "repository": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-config",
   "bugs": {
     "url": "https://github.com/sullenor/clean-up-your-code/issues"
   },
