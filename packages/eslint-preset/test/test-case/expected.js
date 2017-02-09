@@ -1,7 +1,9 @@
 'use strict';
 
 const {curry, compose} = require('lodash/fp');
-const {assign} = require('lodash/fp');
+const {
+  assign,
+} = require('lodash/fp');
 
 const foo = {a: 5, b: 4};
 
