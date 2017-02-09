@@ -1,7 +1,20 @@
 eslint-preset
 =============
 
-The set of configuration files for ESLint. Under development.
+The set of configuration files for ESLint.
+
+
+## Installation
+
+```
+npm install @sullenor/eslint-config
+```
+
+
+## Available presets
+
+- `@sullenor/eslint-config` — contains the default rules which affect the `--fix` option.
+- `@sullenor/eslint-config/react`
 
 
 ## Related issues
