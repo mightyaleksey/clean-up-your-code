@@ -1,4 +1,4 @@
-eslint-preset
+eslint-config
 =============
 
 The set of configuration files for ESLint.
