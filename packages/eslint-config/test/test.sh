@@ -25,5 +25,5 @@ if [ "$expectedsum" != "$resultingsum" ]; then
   echo "in the ${COLOR_BOLD}test/tmp.js${COLOR_NC} file."
   exit 1
 else
-  echo "${COLOR_BOLD}passed${COLOR_NC}"
+  echo "${COLOR_GREEN}passed${COLOR_NC}"
 fi
