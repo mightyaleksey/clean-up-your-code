@@ -20,3 +20,8 @@ npm install @sullenor/eslint-config
 ## Related issues
 
 - `object-curly-newline`: https://github.com/eslint/eslint/issues/6488
+
+
+## License
+
+> The MIT License
