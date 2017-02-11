@@ -20,6 +20,9 @@
     "url": "https://github.com/sullenor/clean-up-your-code/issues"
   },
   "license": "MIT",
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
   "peerDependencies": {
     "eslint": ">= 3"
   }
