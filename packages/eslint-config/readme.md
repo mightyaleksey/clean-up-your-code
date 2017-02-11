@@ -14,7 +14,7 @@ npm install @sullenor/eslint-config
 ## Available presets
 
 - `@sullenor/eslint-config` — contains the default rules which affect the `--fix` option.
-- `@sullenor/eslint-config/react`
+- `@sullenor/eslint-config/jest`
 
 
 ## Related issues
