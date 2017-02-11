@@ -1,6 +1,6 @@
 {
   "name": "@sullenor/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "the eslint react preset of mine",
   "main": "index.js",
   "scripts": {
