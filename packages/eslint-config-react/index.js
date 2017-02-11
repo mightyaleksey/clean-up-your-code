@@ -5,7 +5,10 @@ module.exports = {
     browser: true,
     process: true,
   },
-  extends: '@sullenor/eslint-config',
+  extends: [
+    '@sullenor/eslint-config',
+    'plugin:flowtype/recommended',
+  ],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
@@ -14,6 +17,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
+    'flowtype',
     'react',
   ],
   rules: {

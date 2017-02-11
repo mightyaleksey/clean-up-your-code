@@ -1,10 +1,10 @@
 {
   "name": "@sullenor/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "the eslint react preset of mine",
   "main": "index.js",
   "scripts": {
-    "test": "sh test/test.sh"
+    "test": ""
   },
   "keywords": [
     "eslint",
@@ -20,15 +20,13 @@
     "url": "https://github.com/sullenor/clean-up-your-code/issues"
   },
   "license": "MIT",
-  "eslintConfig": {
-    "extends": "./index.js"
-  },
   "peerDependencies": {
     "eslint": ">= 3"
   },
   "dependencies": {
-    "@sullenor/eslint-config": "1.0.3",
+    "@sullenor/eslint-config": "1.0.2",
     "babel-eslint": "^7.1.1",
+    "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-react": "^6.9.0"
   }
 }
