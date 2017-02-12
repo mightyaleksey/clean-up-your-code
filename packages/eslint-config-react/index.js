@@ -3,12 +3,14 @@
 module.exports = {
   env: {
     browser: true,
-    process: true,
   },
   extends: [
     '@sullenor/eslint-config',
     'plugin:flowtype/recommended',
   ],
+  globals: {
+    process: true,
+  },
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
