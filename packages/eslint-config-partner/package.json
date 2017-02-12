@@ -1,0 +1,35 @@
+{
+  "name": "@sullenor/eslint-config-partner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Alexey Litvinov",
+  "homepage": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-config-partner#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-config-partner"
+  },
+  "bugs": {
+    "url": "https://github.com/sullenor/clean-up-your-code/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@sullenor/eslint-config": "^1.0.5",
+    "babel-eslint": "^7.1.1",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0"
+  }
+}

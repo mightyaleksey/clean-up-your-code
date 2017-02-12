@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "./index.js",
+    "plugin:flowtype/recommended"
+  ],
+  "globals": {
+    "process": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      jsx: true
+    }
+  },
+  "plugins": [
+    "flowtype",
+    "react"
+  ],
+  "rules": {
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2
+  }
+}
