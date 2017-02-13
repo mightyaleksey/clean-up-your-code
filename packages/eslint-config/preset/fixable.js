@@ -77,7 +77,7 @@ const rules = {
   'space-infix-ops': 2,
   'space-unary-ops': [2, {nonwords: false, words: true}],
   'spaced-comment': [2, 'always'],
-  'strict': 2,
+  'strict': [2, 'global'],
   'template-curly-spacing': [2, 'never'],
   'template-tag-spacing': [2, 'never'],
   'unicode-bom': [2, 'never'],
