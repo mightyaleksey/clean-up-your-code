@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: [
     '@sullenor/eslint-config',
+    'plugin:react/recommended',
     'plugin:flowtype/recommended',
   ],
   globals: {
@@ -22,8 +23,4 @@ module.exports = {
     'flowtype',
     'react',
   ],
-  rules: {
-    'react/jsx-uses-react': 2,
-    'react/jsx-uses-vars': 2,
-  },
 };

@@ -15,7 +15,9 @@ class Button extends Component {
 }
 
 Button.propTypes = {
+  children: PropTypes.string,
   className: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 export default Button;
