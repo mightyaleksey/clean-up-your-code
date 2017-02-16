@@ -1,9 +1,13 @@
 'use strict';
 
-module.exports = Object.assign({
+module.exports = {
   env: {
     commonjs: true,
     es6: true,
   },
-  extends: 'eslint:recommended',
-}, require('./preset/fixable'));
+  extends: [
+    'eslint:recommended',
+    './preset/best-practices.js',
+    './preset/fixable.js',
+  ],
+};
