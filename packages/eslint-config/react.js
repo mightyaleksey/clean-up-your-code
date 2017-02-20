@@ -12,6 +12,6 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    sourceType: 'module',
+    sourceType: 'script',
   },
 };

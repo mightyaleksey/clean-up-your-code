@@ -15,11 +15,12 @@ npm install @sullenor/eslint-config
 
 - `@sullenor/eslint-config` — contains the default rules which affect the `--fix` option.
 - `@sullenor/eslint-config/jest`
+- `@sullenor/eslint-config/react`
 
 
-## Related issues
+## Notes
 
-- `object-curly-newline`: https://github.com/eslint/eslint/issues/6488
+Both `jest` and `react` configs use `sourceType -> script`. Consider using [eslint-config-react](https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-config-react) for ECMAScript 6 modules.
 
 
 ## License

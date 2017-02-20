@@ -51,6 +51,7 @@ const rules = {
   'no-useless-return': 2,
   'no-var': 2,
   'no-whitespace-before-property': 2,
+  // https://github.com/eslint/eslint/issues/6488
   'object-curly-newline': [0, {multiline: true}],
   'object-curly-spacing': [2, 'never'],
   'object-property-newline': 0,
