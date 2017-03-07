@@ -65,7 +65,8 @@ const rules = {
   'prefer-const': 2,
   'prefer-numeric-literals': 0,
   'prefer-spread': 2,
-  'prefer-template': 2,
+  // annoying
+  'prefer-template': 0,
   'quote-props': [2, 'as-needed'],
   'quotes': [2, 'single'],
   'rest-spread-spacing': [2, 'never'],
