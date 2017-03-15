@@ -10,4 +10,10 @@ module.exports = {
     './preset/best-practices.js',
     './preset/fixable.js',
   ],
+  parserOptions: {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    },
+  },
 };
