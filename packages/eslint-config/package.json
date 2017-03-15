@@ -1,6 +1,6 @@
 {
   "name": "@sullenor/eslint-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "the eslint preset of mine",
   "main": "index.js",
   "scripts": {
