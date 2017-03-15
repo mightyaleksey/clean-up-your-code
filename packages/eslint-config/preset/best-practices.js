@@ -4,6 +4,7 @@
 /* eslint quote-props: ["error", "consistent"] */
 const rules = {
   'callback-return': 2,
+  'max-len': [2, {code: 120, ignoreUrls: true}],
   'no-case-declarations': 0,
   'no-empty-pattern': 2,
   'no-octal': 2,
