@@ -1,6 +1,6 @@
 {
   "name": "@sullenor/eslint-config",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "description": "the eslint preset of mine",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,10 @@
   "eslintConfig": {
     "extends": "./index.js",
     "rules": {
-      "quote-props": [2, "consistent"]
+      "quote-props": [
+        2,
+        "consistent"
+      ]
     }
   }
 }
