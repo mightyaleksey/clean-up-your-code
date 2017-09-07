@@ -16,6 +16,13 @@ This repo is built with [Lerna](https://lernajs.io/) and contains packages with 
 See the full list of available packages at [packages directory](./packages).
 
 
+## Development
+
+- `npm install -g lerna@latest` — install the latest version of lerna.
+- `lerna bootstrap` — links dependencies in the repo together.
+- `lerna publish --npm-tag=next` — publish under tag.
+
+
 ## License
 
 > The MIT License

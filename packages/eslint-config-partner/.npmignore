@@ -1,5 +1,0 @@
-.gitignore
-.npmignore
-lerna-debug.log*
-npm-debug.log*
-test

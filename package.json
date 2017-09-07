@@ -6,7 +6,7 @@
     "extends": "./packages/eslint-config/index.js"
   },
   "devDependencies": {
-    "eslint": "^3.15.0",
-    "lerna": "2.0.0-beta.38"
+    "eslint": "^4.6.1",
+    "lerna": "^2.1.2"
   }
 }

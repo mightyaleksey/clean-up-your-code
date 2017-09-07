@@ -21,6 +21,12 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "rules": {
+      "quote-props": [2, "consistent"]
+    }
   }
 }

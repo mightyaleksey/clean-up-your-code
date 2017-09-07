@@ -7,4 +7,4 @@ const {
 
 const foo = {a: 5, b: 4};
 
-module.exports = curry((a , b) => compose(a, b , assign)(foo));
+module.exports = curry((a, b) => compose(a, b, assign)(foo));

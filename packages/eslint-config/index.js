@@ -7,13 +7,17 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    './preset/best-practices.js',
-    './preset/fixable.js',
+    './rules/best-practices.js',
+    './rules/commonjs.js',
+    './rules/es6.js',
+    './rules/possible-errors.js',
+    './rules/stylistic.js',
+    './rules/variables.js',
   ],
   parserOptions: {
     ecmaVersion: 6,
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
+  },
+  rules: {
+    strict: 2,
   },
 };
