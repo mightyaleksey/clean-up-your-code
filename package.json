@@ -1,12 +1,12 @@
 {
-  "scripts": {
-    "test": "lerna run test"
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "lerna": "^3.1.4"
   },
   "eslintConfig": {
     "extends": "./packages/eslint-config/index.js"
   },
-  "devDependencies": {
-    "eslint": "^4.6.1",
-    "lerna": "^2.1.2"
+  "scripts": {
+    "test": "lerna run test"
   }
 }

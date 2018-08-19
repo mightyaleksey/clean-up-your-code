@@ -21,6 +21,7 @@ See the full list of available packages at [packages directory](./packages).
 - `npm install -g lerna@latest` — install the latest version of lerna.
 - `lerna bootstrap` — links dependencies in the repo together.
 - `lerna publish --npm-tag=next` — publish under tag.
+- `lerna publish --skip-git` — skip any git commands.
 
 
 ## License

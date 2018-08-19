@@ -7,20 +7,56 @@ The set of configuration files for ESLint.
 ## Installation
 
 ```
-npm install @sullenor/eslint-config
+yarn add @sullenor/eslint-config --dev
 ```
 
 
-## Available presets
+## Usage
 
-- `@sullenor/eslint-config` — contains the default rules which affect the `--fix` option.
-- `@sullenor/eslint-config/jest`
-- `@sullenor/eslint-config/react`
+Create the `.eslintrc.js` file with the following content:
 
+```js
+'use strict';
 
-## Notes
+module.exports = {
+  extends: '@sullenor/eslint-config',
+};
+```
 
-Both `jest` and `react` configs use `sourceType -> script`. Consider using [eslint-config-react](https://github.com/sullenor/clean-up-your-code/tree/master/packages/eslint-config-react) for ECMAScript 6 modules.
+or add `eslintConfig` field to the `package.json`:
+
+```json
+{
+  "name": "<your project>",
+  "eslintConfig": {
+    "extends": "@sullenor/eslint-config"
+  }
+}
+```
+
+In case you use es6 imports, add the following parser options:
+
+```json
+{
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
+```
+
+so it will be:
+
+```js
+'use strict';
+
+module.exports = {
+  parserOptions: {
+    sourceType: 'module',
+  },
+
+  extends: '@sullenor/eslint-config',
+};
+```
 
 
 ## License
