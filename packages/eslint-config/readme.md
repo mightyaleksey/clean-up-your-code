@@ -6,15 +6,12 @@ The set of configuration files for ESLint.
 
 ## Installation
 
+Install dependency:
 ```
 yarn add @sullenor/eslint-config --dev
 ```
 
-
-## Usage
-
 Create the `.eslintrc.js` file with the following content:
-
 ```js
 'use strict';
 
@@ -24,7 +21,6 @@ module.exports = {
 ```
 
 or add `eslintConfig` field to the `package.json`:
-
 ```json
 {
   "name": "<your project>",
@@ -35,7 +31,6 @@ or add `eslintConfig` field to the `package.json`:
 ```
 
 In case you use es6 imports, add the following parser options:
-
 ```json
 {
   "parserOptions": {
@@ -45,7 +40,6 @@ In case you use es6 imports, add the following parser options:
 ```
 
 so it will be:
-
 ```js
 'use strict';
 
@@ -56,6 +50,14 @@ module.exports = {
 
   extends: '@sullenor/eslint-config',
 };
+```
+
+
+## Usage
+
+To automatically fix errors run eslint manually with `--fix` flag:
+```shell
+eslint "src/**/*.js" --fix
 ```
 
 
