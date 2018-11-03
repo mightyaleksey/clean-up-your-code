@@ -1,0 +1,13 @@
+{
+  "name": "postcss-organizer",
+  "version": "0.0.1",
+  "main": "./src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "postcss": "^7.0.5"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
