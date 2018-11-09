@@ -1,12 +1,14 @@
 {
   "devDependencies": {
     "eslint": "^5.4.0",
-    "lerna": "^3.1.4"
+    "lerna": "^3.4.3"
   },
   "eslintConfig": {
     "extends": "./packages/eslint-config/index.js"
   },
   "scripts": {
+    "lint": "eslint 'packages/*/src/*.js'",
     "test": "lerna run test"
-  }
+  },
+  "name": "clean-up-your-code"
 }

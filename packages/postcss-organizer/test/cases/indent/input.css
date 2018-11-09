@@ -1,0 +1,7 @@
+.aa
+{background: blue;color: white;} .bb {
+  background: blue;
+  color: white;
+
+  .nested { background: blue;}
+}

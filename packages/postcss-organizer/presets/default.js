@@ -1,0 +1,92 @@
+'use strict';
+
+module.exports = {
+  'always-semicolon': true,
+
+  'block-indent': '  ',
+
+  'space-before-colon': '',
+  'space-after-colon': ' ',
+
+  'space-before-selector': '\n\n',
+  'space-before-opening-brace': ' ',
+  'space-after-opening-brace': '\n',
+  'space-between-declarations': '\n',
+  'space-before-closing-brace': '\n',
+
+  'sort-order': [
+    [
+      'composes',
+    ],
+    [
+      'position',
+      'z-index',
+      'top',
+      'right',
+      'bottom',
+      'left',
+    ],
+    [
+      'display',
+      'visibility',
+      'float',
+      'clear',
+      'overflow',
+      'overflow-x',
+      'overflow-y',
+    ],
+    [
+      'flex-flow',
+      'flex-direction',
+      'flex-wrap',
+      'justify-content',
+      'align-items',
+      'align-content',
+    ],
+    [
+      'order',
+      'flex',
+      'flex-grow',
+      'flex-shrink',
+      'flex-basis',
+      'align-self',
+    ],
+    [
+      'box-sizing',
+      'width',
+      'min-width',
+      'max-width',
+      'height',
+      'min-height',
+      'max-height',
+      'margin',
+      'margin-top',
+      'margin-right',
+      'margin-bottom',
+      'margin-left',
+      'padding',
+      'padding-top',
+      'padding-right',
+      'padding-bottom',
+      'padding-left',
+    ],
+    [
+      'font',
+      'font-style',
+      'font-variant',
+      'font-weight',
+      'font-stretch',
+      'font-size',
+      'line-height',
+      'font-family',
+    ],
+    [
+      'content',
+      'cursor',
+      'user-select',
+      'transition',
+      'animation',
+      'text-decoration',
+    ],
+  ],
+};
