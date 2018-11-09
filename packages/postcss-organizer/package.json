@@ -7,6 +7,15 @@
     "jest": "^23.6.0",
     "postcss": "^7.0.5"
   },
+  "author": "Alexey Litvinov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sullenor/clean-up-your-code/tree/master/packages/postcss-organizer"
+  },
+  "bugs": {
+    "url": "https://github.com/sullenor/clean-up-your-code/issues"
+  },
   "scripts": {
     "test": "jest"
   }
