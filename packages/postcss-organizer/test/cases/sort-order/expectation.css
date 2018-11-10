@@ -5,3 +5,11 @@
   width: 200px;
   height: 160px;
 }
+
+@media print {
+  .aa {
+    font-size: 14px;
+
+    background: white;
+  }
+}
