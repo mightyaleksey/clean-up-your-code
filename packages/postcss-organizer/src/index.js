@@ -48,7 +48,7 @@ function initPostcssOrganizerPlugin(userOptions) {
 
     if (options['sort-order'].length > 0) {
       root.nodes.sort(order.byWeight);
-      root.walkAtRules(atrule => atrule.nodes.sort(order.byWeight));
+      root.walkAtRules(atrule => Array.isArray(atrule.nodes) && atrule.nodes.sort(order.byWeight));
       root.walkRules(rule => rule.nodes.sort(order.byWeight));
     }
 
@@ -59,7 +59,7 @@ function initPostcssOrganizerPlugin(userOptions) {
 
       // format selector
       if (node.type === 'atrule' || node.type === 'rule') {
-        const before = indent.ruleBefore(node, isFirstNode);
+        const before = indent.ruleBefore(node, isFirst, isFirstNode);
         const between = indent.ruleBetween(node);
         const after = indent.ruleAfter(node);
         node.raws = rule.raws(node.raws, before, between, after);

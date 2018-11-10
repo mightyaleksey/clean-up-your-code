@@ -4,3 +4,10 @@
   width: 200px;
   position: absolute;
 }
+
+@media print {
+  .aa {
+    background: white;
+    font-size: 14px;
+  }
+}

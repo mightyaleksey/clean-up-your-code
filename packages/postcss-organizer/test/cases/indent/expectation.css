@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
 .aa {
     background: blue;
     color: white;
@@ -9,5 +11,17 @@
 
     .nested {
         background: blue;
+    }
+}
+
+.cc {
+    &:hover {
+        color: white
+    }
+}
+
+@media print {
+    .aa {
+        background: white
     }
 }

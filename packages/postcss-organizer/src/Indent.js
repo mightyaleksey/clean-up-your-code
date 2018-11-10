@@ -89,19 +89,44 @@ class Indent {
 
   //   .selector {
   // | |
-  ruleBefore(node, isFirstNode) {
-    if (this.blockIndent === null || this.spaceBeforeSelector === null) {
+  ruleBefore(node, isFirst, isFirstNode) {
+    if (this.blockIndent === null) {
       return null;
     }
 
-    return isFirstNode ? '' : `${this.spaceBeforeSelector}${this.indent(node)}`;
+    if (['atrule', 'rule'].includes(node.parent.type) && isFirst) {
+      if (this.spaceAfterOpeningBrace === null) {
+        return null;
+      }
+
+      return this.spaceAfterOpeningBrace.includes('\n')
+        ? `${this.spaceAfterOpeningBrace}${this.indent(node)}`
+        : this.spaceAfterOpeningBrace;
+    }
+
+    if (this.spaceBeforeSelector === null) {
+      return null;
+    }
+
+    if (isFirstNode) {
+      return '';
+    }
+
+    return `${this.spaceBeforeSelector}${this.indent(node)}`;
   }
 
   // .selector {
   //         | |
+  // @import print {
+  //             | |
   ruleBetween(node) {
     if (this.blockIndent === null || this.spaceBeforeOpeningBrace === null) {
       return null;
+    }
+
+    // @import url('...');
+    if (node.type === 'atrule' && !node.nodes) {
+      return '';
     }
 
     return this.spaceBeforeOpeningBrace.includes('\n')

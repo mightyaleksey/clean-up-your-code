@@ -6,6 +6,7 @@ module.exports = {
   'sort-order': [
     [
       'font',
+      'font-size',
     ],
     [
       'position',
