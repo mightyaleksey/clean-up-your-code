@@ -5,6 +5,7 @@
     "organize": "./src/bin.js"
   },
   "dependencies": {
+    "chalk": "^2.4.1",
     "fast-glob": "^2.2.3",
     "minimist": "^1.2.0",
     "postcss": "^7.0.5",

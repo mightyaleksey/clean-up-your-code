@@ -12,9 +12,10 @@ const Indent = require('./Indent');
 const Order = require('./Order');
 const Rule = require('./Rule');
 const Decl = require('./Decl');
-const normalizeUserOptions = require('./normalize-user-options');
+const { normalizeUserOptions, presets } = require('./normalize-user-options');
 
 module.exports = postcss.plugin('postcss-organizer', initPostcssOrganizerPlugin);
+module.exports.presets = presets;
 
 function initPostcssOrganizerPlugin(userOptions) {
   const options = normalizeUserOptions(userOptions);

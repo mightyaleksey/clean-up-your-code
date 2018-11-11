@@ -23,7 +23,7 @@ const defaults = {
   'sort-order': [],
 };
 
-module.exports = function normalizeUserOptions(userOptions) {
+exports.normalizeUserOptions = function normalizeUserOptions(userOptions) {
   const options = userOptions || {};
   const preset = presets[options.preset] || defaults;
 
@@ -34,3 +34,5 @@ module.exports = function normalizeUserOptions(userOptions) {
 
   return config;
 };
+
+exports.presets = Object.keys(presets);

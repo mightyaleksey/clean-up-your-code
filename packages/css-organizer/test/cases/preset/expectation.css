@@ -1,0 +1,33 @@
+.pageLayout {
+  display: flex;
+
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  flex: 1 1 auto;
+}
+
+.header {
+  flex: 0 0 auto;
+}
+
+.content {
+  display: flex;
+
+  flex-flow: column nowrap;
+
+  flex: 1 1 auto;
+}
+
+.content > *:first-child {
+  display: flex;
+
+  flex-flow: column nowrap;
+
+  flex: 1 1 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
