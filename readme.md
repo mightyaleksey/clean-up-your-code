@@ -1,29 +1,17 @@
-clean up your code
-==================
-
+# clean up your code
 A small attempt of mine to simplier development of the multiple packages and keeps its quality on the certain level.
 
 
 ## Preface
-
 The name was inspired by the book **React Design Patterns and Best Practices** by **Michele Bertoli**.
 
 
-## Description
+## Table of contents
+Summary on various topics to save time in future.
 
-This repo is built with [Lerna](https://lernajs.io/) and contains packages with different eslint configurations.
+### Lint the code
+- [standard](https://github.com/standard/standard)
 
-See the full list of available packages at [packages directory](./packages).
-
-
-## Development
-
-- `yarn global add lerna@latest` — install the latest version of lerna.
-- `lerna bootstrap` — links dependencies in the repo together.
-- `lerna publish --npm-tag=next` — publish under tag.
-- `lerna publish --skip-git` — skip any git commands.
-
-
-## License
-
-> The MIT License
+### Bundle code
+We tend to write modular code. In this way we split application's logic between modules. But to make it work in the web, we need to know how to concat those modules into single file and what tools are good for that.
+- [browserify](docs/browserify.md)
